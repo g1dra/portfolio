@@ -21,7 +21,7 @@ jobs:
         username: root
         key: ${{ secrets.SERVER_KEY }}
         port: 22
-        script: 
+        script: |
           ls -lah
           cd /var/www/portfolio
           git pull
